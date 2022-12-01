@@ -18,9 +18,9 @@ mysql>> exit
 
 Come out of mysql and enter the below commands to take the sqldump
 ==================================================================
-Generic: mysql -h IP -u root -proot shubhamdb > mysqldump.sql
+Generic: $ mysql -h IP -u root -proot shubhamdb > mysqldump.sql
 
-In our case: mysql shubhamdb > mysqldump.sql
+In our case: $ mysql shubhamdb > mysqldump.sql
 
 
 Dockerfile
@@ -47,9 +47,9 @@ mysql -u root -proot -e "CREATE DATABASE IF NOT EXISTS shubham" && mysql -u root
 
 Build the docker image
 ======================
-docker build -t shubham .
+$ docker build -t shubham .
 
 
 Run the docker image
 ====================
-docker run --name MyDB -d shubham
+$ docker run --name MyDB -d shubham
