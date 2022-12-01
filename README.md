@@ -1,11 +1,12 @@
 Create a VM and install mysql server
 ====================================
+```
 $ sudo apt update
 
 $ sudo apt install mysql-server
 
 $ service mysql status
-
+```
 
 Open the mysql terminal using command
 =====================================
