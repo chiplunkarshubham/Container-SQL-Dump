@@ -1,7 +1,9 @@
 Create a VM and install mysql server
 ====================================
 $ sudo apt update
+
 $ sudo apt install mysql-server
+
 $ service mysql status
 
 
@@ -39,6 +41,8 @@ mysqlcode.sh
 #!/bin/bash
 
 mysql -u root -proot -e "CREATE DATABASE IF NOT EXISTS shubham" && mysql -u root -proot shubham < /home/mysqldump.sql
+
+(-e stands for execute query)
 
 
 Build the docker image
