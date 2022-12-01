@@ -16,6 +16,7 @@ mysql>> exit
 Come out of mysql and enter the below commands to take the sqldump
 ==================================================================
 Generic: mysql -h IP -u root -proot shubhamdb > mysqldump.sql
+
 In our case: mysql shubhamdb > mysqldump.sql
 
 
