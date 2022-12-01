@@ -1,5 +1,5 @@
-Create a VM and install mysql server
-====================================
+## Create a VM and install mysql server
+
 ```
 sudo apt update
 sudo apt install mysql-server
