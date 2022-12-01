@@ -32,6 +32,7 @@ ENV MYSQL_ROOT_PASSWORD root
 mysqlcode.sh
 ============
 #!/bin/bash
+
 mysql -u root -proot -e "CREATE DATABASE IF NOT EXISTS shubham" && mysql -u root -proot shubham < /home/mysqldump.sql
 
 
