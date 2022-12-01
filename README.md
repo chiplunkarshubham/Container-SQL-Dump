@@ -23,9 +23,13 @@ In our case: mysql shubhamdb > mysqldump.sql
 Dockerfile
 ==========
 FROM mysql/mysql-server:latest
+
 ADD mysqlcode.sh /docker-entrypoint-initdb.d/mysqlcode.sh
+
 ADD mysqldump.sql /home/mysqldump.sql
+
 RUN chmod -R 775 /docker-entrypoint-initdb.d
+
 ENV MYSQL_ROOT_PASSWORD root
 
 
