@@ -10,6 +10,7 @@ Open the mysql terminal using command
 $ mysql
 
 mysql>> Create database,tables and insert data in tables
+
 mysql>> exit
 
 
